@@ -21,7 +21,7 @@ export default function Apresentation() {
       {/* Linha decorativa */}
       <div className={styles.divider}></div>
 
-      {/* Links Sociais */}
+      {/* Links Sociais 
       <div className={styles.socialLinks}>
         <a
           href="https://github.com/GabrielVasco13"
@@ -38,8 +38,9 @@ export default function Apresentation() {
           <Linkedin className={styles.icon} />
         </a>
       </div>
+      */}
 
-      {/* Contato */}
+      {/* Contato 
       <div className={styles.contact}>
         <h2 className={styles.contactTitle}>Contact</h2>
         <p className={styles.contactText}>
@@ -49,6 +50,7 @@ export default function Apresentation() {
           </a>
         </p>
       </div>
+      */}
     </main>
   );
 }

@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0d1117; /* Fundo escuro */
+  background-color: #0d1117;
   color: white;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
 }
 
 .logo {
@@ -14,15 +14,21 @@
   font-weight: bold;
 }
 
+.logo a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+
 .slash {
-  color: #facc15; /* Amarelo */
+  color: #facc15;
   margin-right: 0.5rem;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: 1.5rem; /* Espaçamento entre os elementos */
+  gap: 1.5rem;
 }
 
 .link {
@@ -33,7 +39,7 @@
 }
 
 .link:hover {
-  color: #facc15; /* Amarelo no hover */
+  color: #facc15;
 }
 
 .icon {
@@ -43,7 +49,7 @@
 }
 
 .icon:hover {
-  color: #facc15; /* Amarelo no hover */
+  color: #facc15;
 }
 
 .iconButton {

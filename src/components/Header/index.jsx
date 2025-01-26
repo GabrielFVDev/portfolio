@@ -6,8 +6,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <span className={styles.slash}>//</span>
-        <span>FV</span>
+        <Link to="/">
+          <span className={styles.slash}>//</span>
+          <span>FV</span>
+        </Link>
       </div>
 
       <nav className={styles.nav}>
