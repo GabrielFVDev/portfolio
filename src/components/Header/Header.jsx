@@ -17,13 +17,13 @@ export default function Header() {
         <Link to="/contact" className={styles.link}>
           Contact
         </Link>
-        <Link
-          to="https://github.com/GabrielVasco13"
+        <a
+          href="https://github.com/GabrielVasco13"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Github className={styles.icon} />
-        </Link>
+        </a>
         <button className={styles.iconButton}>
           <Moon className={styles.icon} />
         </button>
