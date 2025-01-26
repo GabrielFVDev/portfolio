@@ -1,0 +1,51 @@
+.projectsSection {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projectsTitle {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: start;
+}
+
+.projectCard {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+}
+
+.projectName {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.projectDescription {
+  color: #c9d1d9;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.projectLink {
+  display: inline-block;
+  color: #facc15;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid #facc15;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.projectLink:hover {
+  background: #facc15;
+  color: #0d1117;
+}
