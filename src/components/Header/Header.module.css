@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d1117; /* Fundo escuro */
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.slash {
+  color: #facc15; /* Amarelo */
+  margin-right: 0.5rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* Espaçamento entre os elementos */
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #facc15; /* Amarelo no hover */
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #facc15; /* Amarelo no hover */
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
