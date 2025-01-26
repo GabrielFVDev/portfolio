@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #fff;
+  border-top: #202938 2px solid;
+}
+
+.leftContent,
+.rightContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.text {
+  color: #fff;
+  display: inline;
+}
+
+.name {
+  color: #facc15;
+  display: inline;
+  margin-left: 0.5rem;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #facc15;
+}
