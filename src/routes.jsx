@@ -4,7 +4,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import GetTouch from "./pages/GetTouch/GetTouch";
 import Resume from "./pages/Resume/Resume";
 import Uses from "./pages/Uses/Uses";
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
 
 export default function MainRoutes() {
   return (

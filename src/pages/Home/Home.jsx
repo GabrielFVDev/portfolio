@@ -1,4 +1,4 @@
-import Apresentation from "../../components/Apresentation/Apresentation";
+import Apresentation from "../../components/Apresentation";
 
 export default function Home() {
   return (

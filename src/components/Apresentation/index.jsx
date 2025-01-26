@@ -3,7 +3,7 @@ import styles from "./Apresentation.module.css";
 
 export default function Apresentation() {
   return (
-    <section className={styles.container}>
+    <main className={styles.container}>
       {/* Título */}
       <h1 className={styles.title}>
         Hey, I’m <span className={styles.highlight}>Gabriel Vasconcelos!</span>
@@ -49,6 +49,6 @@ export default function Apresentation() {
           </a>
         </p>
       </div>
-    </section>
+    </main>
   );
 }
