@@ -20,37 +20,6 @@ export default function Apresentation() {
 
       {/* Linha decorativa */}
       <div className={styles.divider}></div>
-
-      {/* Links Sociais 
-      <div className={styles.socialLinks}>
-        <a
-          href="https://github.com/GabrielVasco13"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Github className={styles.icon} />
-        </a>
-        <a
-          href="https://linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Linkedin className={styles.icon} />
-        </a>
-      </div>
-      */}
-
-      {/* Contato 
-      <div className={styles.contact}>
-        <h2 className={styles.contactTitle}>Contact</h2>
-        <p className={styles.contactText}>
-          You can reach me out anytime at{" "}
-          <a href="mailto:hello@hudovich.dev" className={styles.email}>
-            hello@hudovich.dev
-          </a>
-        </p>
-      </div>
-      */}
     </main>
   );
 }

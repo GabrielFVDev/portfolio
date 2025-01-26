@@ -1,10 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
 import GetTouch from "./pages/GetTouch/GetTouch";
 import Resume from "./pages/Resume/Resume";
 import Uses from "./pages/Uses/Uses";
 import Header from "./components/Header";
+import Home from "./pages/Home";
 
 export default function MainRoutes() {
   return (
