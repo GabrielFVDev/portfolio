@@ -1,0 +1,32 @@
+.contact {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
+
+.contactTitle {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.contactText {
+  color: #c9d1d9;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.email {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-color: #facc15;
+  transition: color 0.3s ease;
+}
+
+.email:hover {
+  color: #facc15;
+  text-decoration-color: #facc15;
+}
