@@ -1,4 +1,15 @@
+import {
+  SiDart,
+  SiFlutter,
+  SiGit,
+  SiMysql,
+  SiNextdotjs,
+  SiShadcnui,
+  SiTypescript,
+  SiVite,
+} from "react-icons/si";
 import styles from "./Resume.module.css";
+import { FaGit, FaGithub, FaJs, FaReact } from "react-icons/fa";
 
 export default function Resume() {
   return (
@@ -22,6 +33,39 @@ export default function Resume() {
           a developer who loves learning, I'm always exploring new technologies
           and expanding my skill set to stay current with industry trends.
         </p>
+        {/* Ícones de Skills */}
+        <div className={styles.skillsGrid}>
+          <div>
+            <SiDart className={styles.icon} /> Dart
+          </div>
+          <div>
+            <SiFlutter className={styles.icon} /> Flutter
+          </div>
+          <div>
+            <FaReact className={styles.icon} /> React
+          </div>
+          <div>
+            <SiTypescript className={styles.icon} /> Typescript
+          </div>
+          <div>
+            <FaJs className={styles.icon} /> JavaScript
+          </div>
+          <div>
+            <SiMysql className={styles.icon} /> MySql
+          </div>
+          <div>
+            <SiVite className={styles.icon} /> Vite
+          </div>
+          <div>
+            <SiShadcnui className={styles.icon} /> Shadcn
+          </div>
+          <div>
+            <FaGithub className={styles.icon} /> GitHub
+          </div>
+          <div>
+            <SiGit className={styles.icon} /> Git
+          </div>
+        </div>
       </div>
     </main>
   );
