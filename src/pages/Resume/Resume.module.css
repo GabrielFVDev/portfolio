@@ -77,10 +77,10 @@
 .timelineDot {
   position: absolute;
   left: -18px;
-  top: 0%;
+  top: -1%;
   width: 14px;
   height: 14px;
-  background-color: orange;
+  background-color: var(--primary);
   border-radius: 50%;
 }
 

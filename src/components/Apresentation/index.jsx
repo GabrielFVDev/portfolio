@@ -1,5 +1,6 @@
 import { Github, Linkedin } from "lucide-react";
 import styles from "./Apresentation.module.css";
+import Divider from "../Divider";
 
 export default function Apresentation() {
   return (
@@ -18,8 +19,7 @@ export default function Apresentation() {
         front-end team at <span className={styles.underline}>NZest</span>.
       </p>
 
-      {/* Linha decorativa */}
-      <div className={styles.divider}></div>
+      <Divider />
     </main>
   );
 }

@@ -1,7 +1,7 @@
 .glowDivider {
   width: 100%;
   height: 4px;
-  background-color: orange;
+  background-color: var(--primary);
   margin: 20px 0;
-  box-shadow: 0 0 10px orange;
+  box-shadow: 0 0 10px var(--primary);
 }
