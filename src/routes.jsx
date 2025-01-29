@@ -3,7 +3,6 @@ import NotFound from "./pages/NotFound/NotFound";
 import GetTouch from "./pages/GetTouch/GetTouch";
 import Home from "./pages/Home/Home";
 import Resume from "./pages/Resume/Resume";
-import Uses from "./pages/Uses/Uses";
 import TechStack from "./pages/TechStack/TechStack";
 import Layout from "./components/Layout";
 
@@ -15,7 +14,6 @@ export default function MainRoutes() {
           <Route index element={<Home />} />
           <Route path="/contact" element={<GetTouch />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/uses" element={<Uses />} />
           <Route path="/tech-stack" element={<TechStack />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

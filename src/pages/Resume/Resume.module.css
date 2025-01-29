@@ -5,7 +5,7 @@
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #fff;
   margin-bottom: 1.5rem;
 }
@@ -52,6 +52,70 @@
   width: 20px;
   height: 20px;
   color: inherit;
+}
+
+.experienceSection {
+  margin-top: 40px;
+}
+
+.description {
+  padding-bottom: 20px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 10px;
+  border-left: 2px solid #444;
+}
+
+.timelineItem {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 20px;
+}
+
+.timelineDot {
+  position: absolute;
+  left: -18px;
+  top: 0%;
+  width: 14px;
+  height: 14px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.timelineContent {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timelineContent:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.company {
+  color: #bbb;
+  font-size: 0.9em;
+}
+
+.duration {
+  color: #888;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+.detailsList {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.detailsList li {
+  margin-bottom: 5px;
+  color: #ddd;
 }
 
 /* Keep existing divider styles */

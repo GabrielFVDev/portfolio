@@ -2,6 +2,8 @@ import {
   SiDart,
   SiFlutter,
   SiGit,
+  SiJetpackcompose,
+  SiKotlin,
   SiMysql,
   SiNextdotjs,
   SiShadcnui,
@@ -10,6 +12,7 @@ import {
 } from "react-icons/si";
 import styles from "./Resume.module.css";
 import { FaGit, FaGithub, FaJs, FaReact } from "react-icons/fa";
+import experiences from "../../data/experiencesData";
 
 export default function Resume() {
   return (
@@ -25,7 +28,7 @@ export default function Resume() {
       </p>
       <div className={styles.divider}></div>
 
-      <div className={styles.skillSection}>
+      <section className={styles.skillSection}>
         <h1>Skills</h1>
         <p>
           {" "}
@@ -40,6 +43,12 @@ export default function Resume() {
           </div>
           <div>
             <SiFlutter className={styles.icon} /> Flutter
+          </div>
+          <div>
+            <SiKotlin className={styles.icon} /> Kotlin
+          </div>
+          <div>
+            <SiJetpackcompose className={styles.icon} /> Jetpack Compose
           </div>
           <div>
             <FaReact className={styles.icon} /> React
@@ -66,7 +75,36 @@ export default function Resume() {
             <SiGit className={styles.icon} /> Git
           </div>
         </div>
-      </div>
+      </section>
+
+      <section className={styles.experienceSection}>
+        <h1>Work History</h1>
+        <p className={styles.description}>
+          Here's an overview of my professional journey. For a detailed look at
+          my experience and qualifications, feel free to download my complete
+          CV.
+        </p>
+
+        <div className={styles.timeline}>
+          {experiences.map((exp, index) => (
+            <div key={index} className={styles.timelineItem}>
+              <div className={styles.timelineDot}></div>
+              <div className={styles.timelineContent}>
+                <h3>{exp.role}</h3>
+                <p className={styles.company}>
+                  {exp.company} • {exp.location} • {exp.type}
+                </p>
+                <p className={styles.duration}>{exp.duration}</p>
+                <ul className={styles.detailsList}>
+                  {exp.details.map((detail, i) => (
+                    <li key={i}>{detail}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
