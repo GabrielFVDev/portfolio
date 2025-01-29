@@ -1,3 +1,4 @@
+import Divider from "../../components/Divider";
 import styles from "./GetTouch.module.css";
 
 export default function GetTouch() {
@@ -7,11 +8,7 @@ export default function GetTouch() {
       <p className={styles.description}>
         Do you have an exciting project? Let's talk!
       </p>
-      <div className={styles.iconDivider}>
-        <span>•</span>
-        <span>•</span>
-        <span>•</span>
-      </div>
+      <Divider />
       <div className={styles.contactInfo}>
         <p>
           You can reach me out anytime at{" "}
