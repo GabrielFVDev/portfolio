@@ -1,0 +1,7 @@
+.glowDivider {
+  width: 100%;
+  height: 4px;
+  background-color: orange;
+  margin: 20px 0;
+  box-shadow: 0 0 10px orange;
+}

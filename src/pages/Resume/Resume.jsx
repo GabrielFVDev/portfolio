@@ -13,6 +13,7 @@ import {
 import styles from "./Resume.module.css";
 import { FaGit, FaGithub, FaJs, FaReact } from "react-icons/fa";
 import experiences from "../../data/experiencesData";
+import Divider from "../../components/Divider";
 
 export default function Resume() {
   return (
@@ -26,7 +27,7 @@ export default function Resume() {
         Experienced in responsive design, state management, and API integration
         for both web and mobile platforms.
       </p>
-      <div className={styles.divider}></div>
+      <Divider />
 
       <section className={styles.skillSection}>
         <h1>Skills</h1>
