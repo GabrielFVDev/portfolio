@@ -30,22 +30,22 @@
 }
 
 .projectDescription {
-  color: #c9d1d9;
+  color: var(--text-color);
   line-height: 1.6;
   margin-bottom: 1.5rem;
 }
 
 .projectLink {
   display: inline-block;
-  color: #facc15;
+  color: var(--primary);
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border: 1px solid #facc15;
+  border: 1px solid var(--primary);
   border-radius: 4px;
   transition: all 0.3s ease;
 }
 
 .projectLink:hover {
-  background: #facc15;
+  background: var(--primary);
   color: #0d1117;
 }

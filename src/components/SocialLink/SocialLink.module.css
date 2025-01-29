@@ -26,12 +26,12 @@
 }
 
 .socialLinks a:hover {
-  color: #facc15;
+  color: var(--primary);
 }
 
 .socialLinks a:hover p,
 .socialLinks a:hover .icon {
-  color: #facc15;
+  color: var(--primary);
 }
 
 .icon {
@@ -57,5 +57,5 @@
 }
 
 .icon:hover {
-  color: #facc15;
+  color: var(--primary);
 }

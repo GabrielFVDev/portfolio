@@ -16,12 +16,12 @@
 }
 
 .highlight {
-  color: #facc15;
+  color: var(--primary);
 }
 
 .description {
   font-size: 1rem;
-  color: #c9d1d9;
+  color: var(--text-color);
   margin-bottom: 2rem;
   line-height: 1.5;
   max-width: 600px;
@@ -45,7 +45,7 @@
 }
 
 .icon:hover {
-  color: #facc15;
+  color: var(--primary);
 }
 
 .contact {
@@ -60,11 +60,11 @@
 
 .contactText {
   font-size: 1rem;
-  color: #c9d1d9;
+  color: var(--text-color);
 }
 
 .email {
-  color: #facc15;
+  color: var(--primary);
   text-decoration: underline;
   transition: color 0.3s ease;
 }

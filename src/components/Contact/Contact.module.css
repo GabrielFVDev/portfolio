@@ -13,7 +13,7 @@
 }
 
 .contactText {
-  color: #c9d1d9;
+  color: var(--text-color);
   font-size: 1.1rem;
   line-height: 1.6;
   text-align: left;
@@ -22,11 +22,11 @@
 .email {
   color: #fff;
   text-decoration: underline;
-  text-decoration-color: #facc15;
+  text-decoration-color: var(--primary);
   transition: color 0.3s ease;
 }
 
 .email:hover {
-  color: #facc15;
-  text-decoration-color: #facc15;
+  color: var(--primary);
+  text-decoration-color: var(--primary);
 }
