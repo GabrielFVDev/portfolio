@@ -37,15 +37,6 @@
   text-decoration: underline;
 }
 
-.socialLink {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.socialLink:hover {
-  text-decoration: underline;
-}
-
 .responseTime {
   font-size: 1rem;
   color: var(--text-color);

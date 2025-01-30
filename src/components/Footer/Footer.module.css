@@ -5,7 +5,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
-  color: #fff;
+  color: var(--text-color);
   border-top: #202938 2px solid;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .text {
-  color: #fff;
+  color: var(--text-color);
   display: inline;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .link {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   transition: color 0.3s ease;
 }

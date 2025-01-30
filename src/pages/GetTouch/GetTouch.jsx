@@ -16,17 +16,6 @@ export default function GetTouch() {
             fvgabriel18@gmail.com
           </a>
         </p>
-        <p>
-          As a backup option, you can DM me on{" "}
-          <a
-            href="https://x.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.socialLink}
-          >
-            X
-          </a>
-        </p>
       </div>
       <p className={styles.responseTime}>
         I usually respond right away on business days.
