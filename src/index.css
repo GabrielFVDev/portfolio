@@ -19,7 +19,7 @@
 :root[data-theme="light"] {
   --primary: #2544f5;
   --text-color: #1a1a1a;
-  --background-color: #ffffff;
+  --background-color: #d1d1d1;
   --card-background: rgba(0, 0, 0, 0.05);
 }
 

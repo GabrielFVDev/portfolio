@@ -36,3 +36,22 @@
 .link:hover {
   color: var(--primary);
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .leftContainer,
+  .rightContainer {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+}
