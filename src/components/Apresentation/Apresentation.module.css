@@ -1,5 +1,5 @@
 .container {
-  color: white;
+  color: var(--text-color);
   max-width: 800px;
   min-height: 20rem;
   margin: 0 auto;
@@ -13,6 +13,7 @@
 .title {
   font-size: 2.5rem;
   font-weight: bold;
+  color: var(--text-color);
   margin-bottom: 1rem;
 }
 
@@ -40,7 +41,7 @@
 
 .icon {
   font-size: 1.5rem;
-  color: white;
+  color: var(--text-color);
   transition: color 0.3s ease;
   cursor: pointer;
 }
@@ -71,5 +72,5 @@
 }
 
 .email:hover {
-  color: white;
+  color: var(--text-color);
 }

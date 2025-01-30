@@ -19,7 +19,7 @@
 :root[data-theme="light"] {
   --primary: #2544f5;
   --text-color: #1a1a1a;
-  --background-color: var(--text-color);
+  --background-color: #ffffff;
 }
 
 :root[data-theme="dark"] {
