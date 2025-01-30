@@ -16,6 +16,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root[data-theme="light"] {
+  --primary: #2544f5;
+  --text-color: #1a1a1a;
+  --background-color: var(--text-color);
+}
+
+:root[data-theme="dark"] {
+  --primary: #2544f5;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --background-color: #0d1117;
+}
+
 * {
   margin: 0;
   padding: 0;
