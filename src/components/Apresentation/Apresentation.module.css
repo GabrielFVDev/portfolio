@@ -78,15 +78,15 @@
 
 @media (max-width: 768px) {
   .container {
-    padding: 1rem; /* Adjust padding for mobile */
+    padding: 1rem;
   }
 
   .description {
-    font-size: 0.9rem; /* Slightly smaller text on mobile */
-    padding: 0 1rem; /* Add horizontal padding */
+    font-size: 0.9rem;
+    padding: 0 1rem;
   }
 
   .title {
-    font-size: 2rem; /* Smaller title on mobile */
+    font-size: 2rem;
   }
 }
