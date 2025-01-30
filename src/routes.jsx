@@ -8,10 +8,10 @@ import Layout from "./components/Layout";
 
 export default function MainRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Layout>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path="/portfolio" element={<Home />} />
           <Route path="/contact" element={<GetTouch />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/tech-stack" element={<TechStack />} />
