@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2rem;
 }
 
 .title {
@@ -73,4 +74,19 @@
 
 .email:hover {
   color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem; /* Adjust padding for mobile */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Slightly smaller text on mobile */
+    padding: 0 1rem; /* Add horizontal padding */
+  }
+
+  .title {
+    font-size: 2rem; /* Smaller title on mobile */
+  }
 }
