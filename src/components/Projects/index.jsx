@@ -2,32 +2,32 @@ import styles from "./Projects.module.css";
 
 const projects = [
   {
-    name: "Text Encoder and Decoder",
+    name: "Decodificador/Codificador de texto",
     description:
-      "A simple text encoder/decoder web application built with HTML, CSS, and vanilla JavaScript. Created as a fun way to exchange coded messages with friends.",
+      "Uma aplicação web simples de codificação/decodificação de texto construída com HTML, CSS e JavaScript puro. Criada como uma forma divertida de trocar mensagens codificadas com amigos.",
     link: "https://gabrielvasco13.github.io/desafio_one/",
     type: "Website",
   },
   {
-    name: "Link Tree Clone",
+    name: "Clone do Link Tree",
     description:
-      "Did you know about the Link Tree that some people uses in ther description on Instagram? Why i cant have my own? So i made a clone of it. This is a simple project made with React.",
+      "Você conhece o Link Tree que muitas pessoas usam na descrição do Instagram? Por que não posso ter o meu próprio? Então criei um clone. Este é um projeto simples feito com React.",
     link: "https://gabrielvasco13.github.io/social-link/",
     type: "Website",
   },
   {
-    name: "Task Manager",
+    name: "Gerenciador de Tarefas",
     description:
-      "A minimalist todo application with local storage persistence. Built using Flutter with a MVVM architecture.",
+      "Um aplicativo minimalista de tarefas com persistência em armazenamento local. Desenvolvido usando Flutter com arquitetura MVVM.",
     link: "https://github.com/GabrielVasco13/todo_mvvm",
-    type: "Repository",
+    type: "Repositório",
   },
 ];
 
 export default function Projects() {
   return (
     <section className={styles.projectsSection}>
-      <h2 className={styles.projectsTitle}>Projects</h2>
+      <h2 className={styles.projectsTitle}>Projetos</h2>
       {projects.map((project, index) => (
         <div key={index} className={styles.projectCard}>
           <h3 className={styles.projectName}>{project.name}</h3>

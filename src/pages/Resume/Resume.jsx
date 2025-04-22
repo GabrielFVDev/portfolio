@@ -5,37 +5,37 @@ import {
   SiJetpackcompose,
   SiKotlin,
   SiMysql,
-  SiNextdotjs,
   SiShadcnui,
   SiTypescript,
   SiVite,
 } from "react-icons/si";
 import styles from "./Resume.module.css";
-import { FaGit, FaGithub, FaJs, FaReact } from "react-icons/fa";
+import { FaGithub, FaJs, FaReact } from "react-icons/fa";
 import experiences from "../../data/experiencesData";
 import Divider from "../../components/Divider";
 
 export default function Resume() {
   return (
     <main className={styles.container}>
-      <h1 className={styles.title}>My Resume / CV</h1>
+      <h1 className={styles.title}>Meu curriculo / CV</h1>
       <p className={styles.description}>
         {" "}
-        Front-end developer specializing in building web applications using
-        React ecosystem with modern JavaScript. For mobile development, I use
-        Flutter to create cross-platform applications with native performance.
-        Experienced in responsive design, state management, and API integration
-        for both web and mobile platforms.
+        Desenvolvedor front-end especializado na construção de aplicações web
+        utilizando React com JavaScript. Para desenvolvimento mobile, utilizo
+        Flutter para criar aplicações multiplataforma com desempenho nativo.
+        Experiente em design responsivo, gerenciamento de estado e integração de
+        APIs tanto para plataformas web quanto mobile.
       </p>
       <Divider />
 
       <section className={styles.skillSection}>
-        <h1>Skills</h1>
+        <h1>Habilidades</h1>
         <p>
           {" "}
-          Below you'll find the technologies and tools I work with regularly. As
-          a developer who loves learning, I'm always exploring new technologies
-          and expanding my skill set to stay current with industry trends.
+          Abaixo você encontrará as tecnologias e ferramentas com as quais
+          trabalho regularmente. Como um desenvolvedor que adora aprender, estou
+          sempre explorando novas tecnologias e expandindo meu conjunto de
+          habilidades para me manter atualizado com as tendências do setor.
         </p>
         {/* Ícones de Skills */}
         <div className={styles.skillsGrid}>
@@ -79,11 +79,11 @@ export default function Resume() {
       </section>
 
       <section className={styles.experienceSection}>
-        <h1>Work History</h1>
+        <h1>Historico de trabalho</h1>
         <p className={styles.description}>
-          Here's an overview of my professional journey. For a detailed look at
-          my experience and qualifications, feel free to download my complete
-          CV.
+          Aqui está um resumo da minha trajetória profissional. Para uma visão
+          detalhada da minha experiência e qualificações, sinta-se à vontade
+          para baixar meu currículo completo.
         </p>
 
         <div className={styles.timeline}>

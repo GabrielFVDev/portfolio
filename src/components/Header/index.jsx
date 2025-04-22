@@ -17,10 +17,10 @@ export default function Header() {
 
       <nav className={styles.nav}>
         <Link to="/resume" className={styles.link}>
-          Resume
+          Curriculo
         </Link>
         <Link to="/contact" className={styles.link}>
-          Contact
+          Contato
         </Link>
         <a
           href="https://github.com/GabrielVasco13"

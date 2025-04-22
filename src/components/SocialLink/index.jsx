@@ -4,7 +4,7 @@ import styles from "./SocialLink.module.css";
 export default function SocialLink() {
   return (
     <section className={styles.socialLinks}>
-      <h4 className={styles.socialTitle}>Find me on</h4>
+      <h4 className={styles.socialTitle}>Entre em contato</h4>
       <a
         href="https://github.com/GabrielVasco13"
         target="_blank"

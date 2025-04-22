@@ -3,9 +3,9 @@ import styles from "./Contact.module.css";
 export default function Contact() {
   return (
     <div className={styles.contact}>
-      <h4 className={styles.contactTitle}>Contact</h4>
+      <h4 className={styles.contactTitle}>Contato</h4>
       <p className={styles.contactText}>
-        Feel free to email me at{" "}
+        Se sinta livre para me mandar um emai{"  "}
         <a href="mailto:fvgabriel18@gmail.com" className={styles.email}>
           fvgabriel18@gmail.com
         </a>

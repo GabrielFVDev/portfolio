@@ -4,21 +4,21 @@ import styles from "./GetTouch.module.css";
 export default function GetTouch() {
   return (
     <section className={styles.container}>
-      <h1 className={styles.title}>Get in Touch</h1>
+      <h1 className={styles.title}>Entre em contato {" :)"}</h1>
       <p className={styles.description}>
-        Do you have an exciting project? Let's talk!
+        Você precisa de alguem para algum projeto? Vamos conversar!
       </p>
       <Divider />
       <div className={styles.contactInfo}>
         <p>
-          You can reach me out anytime at{" "}
+          Você pode me contatar a qualquer momento{" "}
           <a href="mailto:fvgabriel18@gmail.com" className={styles.emailLink}>
             fvgabriel18@gmail.com
           </a>
         </p>
       </div>
       <p className={styles.responseTime}>
-        I usually respond right away on business days.
+        Eu geralmente respondo na hora em dias úteis.
       </p>
     </section>
   );

@@ -1,17 +1,15 @@
 const techData = {
   Development: [
     { key: "Front-End", value: "React" },
-    { key: "Mobile", value: "Flutter" },
-    { key: "State Management", value: "MVVM Architecture" },
-    { key: "UI Libraries", value: "Shadcn UI" },
-    { key: "Build Tools", value: "Vite" },
-    { key: "Version Control", value: "Git" },
+    { key: "Biblioteca UI", value: "Shadcn UI" },
+    { key: "Ferramentas de build", value: "Vite" },
+    { key: "Versionamento de versão", value: "Git" },
   ],
   Infrastructure: [
-    { key: "Hosting", value: "Vercel" },
-    { key: "Code Repository", value: "GitHub" },
-    { key: "Package Manager", value: "npm" },
-    { key: "Development IDE", value: "VS Code" },
+    { key: "Hosting", value: "GitHub Pages" },
+    { key: "Repositorio de código", value: "GitHub" },
+    { key: "Gerenciador de Pacotes", value: "npm" },
+    { key: "IDE utilizado", value: "VS Code" },
     { key: "CI/CD", value: "GitHub Actions" },
   ],
 };

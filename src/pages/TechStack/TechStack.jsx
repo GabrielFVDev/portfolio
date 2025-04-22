@@ -4,15 +4,14 @@ import styles from "./TechStack.module.css";
 export default function TechStack() {
   return (
     <section className={styles.container}>
-      <h1 className={styles.title}>Tech Stack</h1>
+      <h1 className={styles.title}>Stack</h1>
       <p className={styles.subtitle}>
-        The set of tools under the hood of this website
+        O conjunto de ferramentas por trás deste site
       </p>
 
-      {/* Development and Infrastructure Sections (Side by Side) */}
       <div className={styles.grid}>
         <div className={styles.card}>
-          <h2 className={styles.categoryTitle}>Development</h2>
+          <h2 className={styles.categoryTitle}>Desenvolvimento</h2>
           <div className={styles.itemsContainer}>
             {techData.Development.map((item, index) => (
               <div key={index} className={styles.item}>
@@ -24,7 +23,7 @@ export default function TechStack() {
         </div>
 
         <div className={styles.card}>
-          <h2 className={styles.categoryTitle}>Infrastructure</h2>
+          <h2 className={styles.categoryTitle}>Infraestrutura</h2>
           <div className={styles.itemsContainer}>
             {techData.Infrastructure.map((item, index) => (
               <div key={index} className={styles.item}>
