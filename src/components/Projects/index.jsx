@@ -16,6 +16,13 @@ const projects = [
     type: "Website",
   },
   {
+    name: "Aluraflix",
+    description:
+      "Um catálogo de videos desenvolvido com React, onde você pode adicionar videos à sua lista de favoritos.",
+    link: "https://aluraflix-psi-drab.vercel.app/",
+    type: "Website",
+  },
+  {
     name: "Gerenciador de Tarefas",
     description:
       "Um aplicativo minimalista de tarefas com persistência em armazenamento local. Desenvolvido usando Flutter com arquitetura MVVM.",
