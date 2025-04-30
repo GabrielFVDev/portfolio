@@ -9,7 +9,7 @@ const projects = [
     type: "Website",
   },
   {
-    name: "Clone do Link Tree",
+    name: "Link Tree",
     description:
       "Você conhece o Link Tree que muitas pessoas usam na descrição do Instagram? Por que não posso ter o meu próprio? Então criei um clone. Este é um projeto simples feito com React.",
     link: "https://gabrielvasco13.github.io/social-link/",
