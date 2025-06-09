@@ -16,11 +16,11 @@ export default function Home() {
 
         {/* Descrição */}
         <p className={styles.description}>
-          Sou dev Front-End morando em{" "}
-          <span className={styles.underline}>São Paulo, Brasil</span>. Sou
-          especializado no desenvolvimento de aplicações web usando o
-          ecossistema React e para desenvolvimento Mobile atualmente uso
-          Flutter. No momento, trabalho no time de front-end da{" "}
+          Sou desenvolvedor Front-End morando em{" "}
+          <span className={styles.underline}>São Paulo, Brasil</span>.
+          Especializado no desenvolvimento de aplicações web modernas usando o
+          ecossistema React e desenvolvimento mobile com Flutter. Atualmente,
+          integro o time de front-end da{" "}
           <span className={styles.underline}>NZest</span>.
         </p>
 

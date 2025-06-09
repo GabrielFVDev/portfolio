@@ -6,7 +6,7 @@ export default function SocialLink() {
     <section className={styles.socialLinks}>
       <h4 className={styles.socialTitle}>Entre em contato</h4>
       <a
-        href="https://github.com/GabrielVasco13"
+        href="https://github.com/gabrielfvdev"
         target="_blank"
         rel="noopener noreferrer"
       >

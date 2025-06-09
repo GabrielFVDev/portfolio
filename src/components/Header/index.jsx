@@ -23,7 +23,7 @@ export default function Header() {
           Contato
         </Link>
         <a
-          href="https://github.com/GabrielVasco13"
+          href="https://github.com/GabrielFVDev"
           target="_blank"
           rel="noopener noreferrer"
         >
